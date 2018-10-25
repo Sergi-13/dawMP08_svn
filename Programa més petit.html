@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Programa més petit</title>
+    </head>
+    <body>
+        <script>
+            var petit = parseInt(prompt("Introdueix un nombre"));
+            for (var i = 0; i<4; i++) {
+                var nombre = parseInt(prompt("Introdueix un altre nombre"));
+                if (nombre<petit) {
+                    petit=nombre;
+                }
+            }
+            alert("El nombre mes petit es "+petit);
+        </script>
+    </body>
+</html>
